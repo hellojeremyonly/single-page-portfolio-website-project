@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jeremy - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Jeremy Chong
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          hellojeremyonly@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +65 12345678
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://i.ibb.co/jyFjcWg/a5589627799ab45eb6fd88deb8af1b8d-sticker.png" alt="profile image" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Jeremy! 
+          </h1>
+          <p>
+            Introducing Jeremy, a talented and committed full-stack developer who possesses a strong drive to create meaningful applications. With two years of experience in both application and presentation layers, Jeremy has developed a deep understanding and proficiency in constructing reliable and user-friendly software solutions.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/CSS3.png"/>
+          <h6>CSS</h6>
+          <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>1 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/react.png"/>
+          <h6>React</h6>
+          <p>1 years experience</p>
+        </div>
+
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>Java</h6>
+          <p>1 years experience</p>
+        </div>
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Real Estate Listings Website with Virtual Assistant Integration</h3>
+            <ul>
+              <li>Developed a secure real estate listings website integrated with a chatbot for enhanced user experience. Utilizing HTML, CSS, and JavaScript, the website offered a visually appealing and user-friendly platform for visitors to explore available properties. The integration of a virtual assistant powered by IBM Watson Assistant enriched the website's functionality by providing personalized assistance to users, answering inquiries, and guiding them through the property search process. By incorporating robust security measures, data privacy and protection were ensured, instilling trust and confidence in users. This project demonstrated the successful combination of modern web technologies and intelligent chatbot integration to deliver a seamless and efficient real estate browsing experience</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>E-commerce Website with Recommendation Engine</h3>
+            <ul>
+              <li>Developed a dynamic e-commerce website with a powerful recommendation engine. Leveraging technologies such as HTML, CSS, JavaScript, and Python, the website offered a seamless shopping experience for users. The recommendation engine, built using machine learning algorithms, analyzed user preferences, purchase history, and browsing behavior to provide personalized product recommendations. This enhanced user engagement, increased sales, and improved customer satisfaction. The project showcased the ability to leverage data-driven insights to deliver a highly tailored and efficient e-commerce platform</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Social Media Analytics Dashboard</h3>
+            <ul>
+              <li>Created an analytics dashboard for a social media platform, enabling users to gain insights into their social media performance. Utilizing technologies like React.js, Node.js, and MongoDB, the dashboard fetched and analyzed data from various social media APIs. It provided metrics such as engagement rates, follower growth, and post reach, visualizing the data through interactive charts and graphs. This project empowered social media managers and marketers to track their performance, make data-driven decisions, and optimize their social media strategies for maximum impact</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Jeremy is an exceptional full-stack developer who quickly grasps key concepts and technologies in web development. 
+          He had a great attitude and a excellent team player.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Jeremy has been an amazing experience. 
+          He is highly knowledgeable and always go the extra mile to ensure that everything is done right.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had the opportunity to work closely with Jeremy during the initial phase of our venture.
+          Jeremy's expertise and skills make them an invaluable asset to any organization. 
+          I highly recommend him!
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
