@@ -20,7 +20,7 @@ The "Recommendations" section displays fictitious testimonials and recommendatio
 
 #
 
-### Technologies Used
+## Technologies Used
 
 The Portfolio Website is built using the following technologies:
 
